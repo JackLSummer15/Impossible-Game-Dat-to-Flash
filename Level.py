@@ -13,7 +13,7 @@ class Flash:
                 objectid=struct.pack('>c',l.read(1))[0]
                 l.read(1)
                 l.read(1)
-                width=struct.unpack('>h',l.read(2))[0]#+330
+                width=struct.unpack('>h',l.read(2))[0]
                 l.read(1)
                 l.read(1)
                 height=struct.unpack('>h',l.read(2))[0]
